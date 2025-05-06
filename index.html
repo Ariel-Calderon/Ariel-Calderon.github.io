@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,14 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <button class="btn btn-primary me-2" id="toggleTab">☰</button>
-          <a class="navbar-brand" href="#">Mi Sitio</a>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="btn btn-primary me-2" id="toggleTab">☰</button>
+      <a class="navbar-brand" href="#">Mi Sitio</a>
+    </div>
+  </nav>
   <div class="side-tab" id="sideTab">
     <div class="p-3">
       <h4>Menú</h4>
@@ -25,80 +27,100 @@
     </div>
   </div>
 
-  <div class="container mt-4">
-    <header>
-      <h1 class="mb-4">Inicio</h1>
-      <p class="lead">
-        Mi nombre es Ariel Calderón, soy un profesional de 51 años con el objetivo de ingresar en el mercado IT como desarrollador. En este sitio comparto los fundamentos de mi proyecto laboral:
-      </p>
-      <ul class="list-unstyled">
-        <li><a href="#cv" class="text-decoration-none">CV</a></li>
-        <li><a href="#vinculo-programacion" class="text-decoration-none">Vínculo con la programación</a></li>
-        <li><a href="#repositorios" class="text-decoration-none">Repositorios</a></li>
-      </ul>
-    </header>
-
-    <section id="vinculo-programacion" class="mt-5">
-      <h2 class="mb-3">Vínculo con la programación</h2>
-      <p>Mi experiencia laboral, hasta hoy, se divide en dos períodos bien diferenciados de 15 años:</p>
-      <ul>
-        <li>El primero relacionado con la administración, contabilidad y auditoría.</li>
-        <li>El segundo con la instrucción de disciplinas de acondicionamiento físico.</li>
-      </ul>
-      <p>No obstante, mi inquietud por la programación comenzó de niño, con el Basic.</p>
-      
-      <h4 class="mt-4">Formación académica</h4>
-      <p>
-        Mi principal background formal proviene de la Facultad de Ciencias Económicas. Aunque en su momento cursaba la carrera de Contador, las materias que aprobé representan:
-      </p>
-      <ul>
-        <li>El 48% de la carrera de Actuario.</li>
-        <li>El 46% de Sistemas de información.</li>
-      </ul>
-      <p>
-        Además de álgebra, análisis matemático y estadística, también aprendí aspectos básicos de diseño y normalización de bases de datos. Tuve la suerte de poner en práctica estas cuestiones en mi trabajo, Access mediante, organizando la información útil que existía fuera del sistema principal.
-      </p>
-
-      <h4 class="mt-4">Experiencia práctica</h4>
-      <p>
-        En el 2011, mi hermano, quien estaba enfocado en el diseño web, me propuso hacer el back end de un sitio estático que necesitaba ser dinámico. Aprendí PHP por mis medios y programé un administrador de contenidos, al que luego se fueron sumando otras funcionalidades.
-      </p>
-      <p>
-        Desde aquel entonces continué aprendiendo con ese tipo de colaboraciones freelance, pero también desde mis propias inquietudes: diferentes lenguajes, Arduino y electrónica, etc.
-      </p>
-
-      <h4 class="mt-4">Preparación actual</h4>
-      <p>
-        Hace algunos años comencé a considerar la posibilidad de dedicarme totalmente a la programación. Por lo que orienté mi búsqueda hacia los recursos necesarios para trabajar en equipo y las buenas prácticas de codificación.
-      </p>
-      <p>Es así que llegamos al día de hoy, momento en el que me considero preparado para esta nueva etapa.</p>
+  <div class="container">
+    <section id="inicio" class="rounded-3 mt-2">
+      <div class="contenedor-especial">
+        <h1 class="mb-4">Inicio</h1>
+        <p class="lead">
+          Mi nombre es Ariel Calderón, soy un profesional de 51 años con el objetivo de ingresar en el mercado IT como
+          desarrollador. En este sitio comparto los fundamentos de mi proyecto laboral:
+        </p>
+        <ul class="list-unstyled">
+          <li><a href="#cv" class="text-decoration-none">CV</a></li>
+          <li><a href="#vinculo-programacion" class="text-decoration-none">Vínculo con la programación</a></li>
+          <li><a href="#repositorios" class="text-decoration-none">Repositorios</a></li>
+        </ul>
+      </div>
     </section>
-    <section id="repositorios" class="mt-5">
+    <section id="vinculo-programacion" class="rounded-3 mt-3">
+      <div class="contenedor-especial">
+        <h2 class="mb-3">Vínculo con la programación</h2>
+        <p>Mi experiencia laboral, hasta hoy, se divide en dos períodos bien diferenciados de 15 años:</p>
+        <ul>
+          <li>Administración, contabilidad y auditoría.</li>
+          <li>Acondicionamiento físico.</li>
+        </ul>
+        <p>No obstante, mi inquietud por la programación comenzó de niño, con el Basic de las microcomputadoras de los
+          '80.</p>
+
+        <h4 class="mt-4">Formación académica</h4>
+        <p>
+          Mi principal background formal proviene de la Facultad de Ciencias Económicas. Aunque en su momento cursaba la
+          carrera de Contador, las materias que aprobé representan:
+        </p>
+        <ul>
+          <li>48% de la carrera de Actuario.</li>
+          <li>46% de Sistemas de información.</li>
+        </ul>
+        <p>
+          Además de álgebra, análisis matemático y estadística, también aprendí aspectos básicos de diseño y
+          normalización
+          de bases de datos. Tuve la suerte de poner en práctica estas cuestiones en mi trabajo, Access mediante,
+          organizando la información útil que existía fuera del sistema principal.
+        </p>
+
+        <h4 class="mt-4">Experiencia práctica</h4>
+        <p>
+          En el 2011, mi hermano, quien estaba enfocado en el diseño web, me propuso hacer el back end de un sitio
+          estático que necesitaba ser dinámico. Aprendí PHP por mis medios y programé un administrador de contenidos, al
+          que luego se fueron sumando otras funcionalidades.
+        </p>
+        <p>
+          Desde aquel entonces continué aprendiendo con ese tipo de colaboraciones freelance, pero también desde mis
+          propias inquietudes: diferentes lenguajes, Arduino y electrónica, etc.
+        </p>
+
+        <h4 class="mt-4">Preparación actual</h4>
+        <p>
+          Hace algun tiempo comencé a considerar la posibilidad de dedicarme totalmente a la programación. Por lo que
+          orienté mi búsqueda hacia los recursos necesarios para trabajar en equipo y las buenas prácticas de
+          codificación.
+        </p>
+        <p>Es así que llegamos al día de hoy, momento en el que me considero preparado para esta nueva etapa.</p>
+      </div>
+    </section>
+    <section id="repositorios" class="rounded-3 mt-3">
+      <div class="contenedor-especial">
         <h2 class="mb-3">Repositorios</h2>
         <p>
-          Actualmente estoy programando un módulo reutilizable, en Python, para facilitar el desarrollo de aplicaciones de escritorio ABM / CRUD desde la perspectiva Modelo-Vista-Controlador.
+          Actualmente estoy programando un módulo reutilizable, en Python, para facilitar el desarrollo de aplicaciones
+          de
+          escritorio ABM / CRUD desde la perspectiva Modelo-Vista-Controlador.
         </p>
         <p>
-          El objetivo final es publicar el paquete en PyPI, pero el objetivo inmediato es el ejercicio de programar y documentar, aprendiendo a usar la herramienta Sphinx, para generar documentación a partir de docstrings.
+          El objetivo final es publicar el paquete en PyPI, pero el objetivo inmediato es el ejercicio de programar y
+          documentar, aprendiendo a usar la herramienta Sphinx, para generar documentación a partir de docstrings.
         </p>
-      
+
         <h4 class="mt-4">ABM_MVC</h4>
         <p>
           <a href="#" class="text-decoration-none">Repositorio del módulo reutilizable.</a>
         </p>
-      
+
         <h4 class="mt-4">Documentación</h4>
         <p>
           <a href="#" class="text-decoration-none">Sitio con la documentación del módulo.</a>
         </p>
-      
+
         <h4 class="mt-4">Control-de-precios</h4>
         <p>
           <a href="#" class="text-decoration-none">Repositorio de una aplicación desarrollada con el módulo.</a>
         </p>
-      </section>
+      </div>
+    </section>
 
   </div>
   <script src="js/funciones.js"></script>
 </body>
+
 </html>

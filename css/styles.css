@@ -1,25 +1,69 @@
 .side-tab {
-    position: fixed;
-    left: -250px;
-    top: 56px; /* Altura de la barra de navegación */
-    height: calc(100% - 56px); /* Resta la altura de la barra */
-    width: 250px;
-    background-color: #f8f9fa;
-    transition: left 0.3s ease;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra solo a los lados y abajo */
-  }
-  .side-tab.open {
-    left: 0;
-  }
-  .toggle-btn {
-    position: fixed;
-    left: 0;
-    top: 20px;
-    z-index: 1000;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 0 5px 5px 0;
-  }
+  position: fixed;
+  left: -250px;
+  top: 56px;
+  /* Altura de la barra de navegación */
+  height: calc(100% - 56px);
+  /* Resta la altura de la barra */
+  width: 250px;
+  background-color: #f8f9fa;
+  transition: left 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  /* Sombra solo a los lados y abajo */
+}
+
+.side-tab.open {
+  left: 0;
+}
+
+.toggle-btn {
+  position: fixed;
+  left: 0;
+  top: 20px;
+  z-index: 1000;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+/* Estilo base del body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  position: relative;
+  background-color: #f8f2f6; /* Fondo general */
+}
+
+
+
+/* Configuración base para todas las secciones */
+section {
+  padding: 3rem 0; /* Espaciado interno uniforme */
+  margin: 0;
+  background: var(--section-color);
+}
+
+.contenedor-especial {
+  margin: 0 auto; /* Centra el contenido */
+  max-width: 950px; /* Limita el ancho máximo */
+  padding: 0 20px; /* Espaciado interno para los lados */
+  box-sizing: border-box; /* Incluye el padding dentro del ancho */
+}
+
+
+/* Personalización de colores para cada sección */
+#inicio {
+  --section-color: #c1daf5; /* Azul */
+}
+
+#vinculo-programacion {
+  --section-color: #b9f7c8; /* Verde */
+}
+
+#repositorios {
+  --section-color: #f9eece; /* Amarillo */
+}
