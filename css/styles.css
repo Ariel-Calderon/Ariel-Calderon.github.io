@@ -1,0 +1,25 @@
+.side-tab {
+    position: fixed;
+    left: -250px;
+    top: 56px; /* Altura de la barra de navegación */
+    height: calc(100% - 56px); /* Resta la altura de la barra */
+    width: 250px;
+    background-color: #f8f9fa;
+    transition: left 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra solo a los lados y abajo */
+  }
+  .side-tab.open {
+    left: 0;
+  }
+  .toggle-btn {
+    position: fixed;
+    left: 0;
+    top: 20px;
+    z-index: 1000;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+  }
